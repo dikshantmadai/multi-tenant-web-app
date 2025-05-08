@@ -1,0 +1,16 @@
+CREATE DATABASE IF NOT EXISTS tenant_hari;
+CREATE DATABASE IF NOT EXISTS tenant_sita;
+
+USE tenant_hari;
+CREATE TABLE users (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(100),
+  email VARCHAR(100)
+);
+
+USE tenant_sita;
+CREATE TABLE users (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(100),
+  email VARCHAR(100)
+);
